@@ -1,0 +1,195 @@
+.App {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 50vh;
+  margin-top: 30px;
+
+}
+
+
+.header{
+  display: flex;
+  /*position: absolute;*/
+  /*left: 30px;*/
+  /*top: 110px;*/
+  align-items: flex-start;
+  justify-content: space-around;
+  margin-bottom: 1rem;
+}
+
+#header-text{
+  /*font-family: 'Gothic A1';*/
+  font-style: normal;
+  font-size: 30px;
+  color: #1C2A70;
+}
+
+#car-logo{
+  width: 131px;
+  height: 69px;
+  padding: 20px;
+}
+
+.info{
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#full-name{
+  display: flex;
+  width: 300px;
+  height: 36px;
+  /*left: 45px;*/
+  /*top: 259px;*/
+  border-radius: 80px;
+  margin-bottom: 15px;
+
+}
+
+#phone-number{
+  display: flex;
+  width: 300px;
+  height: 36px;
+  /*left: 45px;*/
+  /*top: 308px;*/
+  border-radius: 80px;
+  margin-bottom: 20px;
+}
+
+#comment{
+  display: flex;
+  width: 136px;
+  height: 19px;
+  /*left: 46px;*/
+  /*top: 550px;*/
+  color: #373737;
+  /*font-family: 'Gothic A1';*/
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 19px;
+  margin-bottom: 5px;
+}
+
+#comment-input{
+  display: flex;
+    width: 300px;
+    height: 91px;
+    /*left: 47px;*/
+    /*top: 575px;*/
+    border-radius: 10px;
+    margin-top: 10px;
+
+
+}
+
+#button{
+  color: white;
+  width: 156px;
+  height: 46px;
+  left: 117px;
+  top: 705px;
+  background: linear-gradient(180deg, #1C2A70 0%, #051564 100%);
+  border-radius: 80px;
+  margin-top: 30px;
+}
+
+.leaving{
+  display: flex;
+  /*display: flex;*/
+  width: 302px;
+  height: 49px;
+  /*left: 50px;*/
+  /*top: 352px;*/
+  align-items: center;
+  justify-content: space-around;
+
+
+}
+
+.At{
+  display: flex;
+  /*position: absolute;*/
+  width: 302px;
+  height: 49px;
+  /*left: 50px;*/
+  /*top: 406px;*/
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.spots{
+  display: flex;
+  /*position: absolute;*/
+  width: 302px;
+  height: 49px;
+  /*left: 50px;*/
+  /*top: 460px;*/
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 20px;
+
+
+}
+
+.icon{
+  width: 25px;
+  height: 25px;
+  left: 80px;
+}
+
+.text_info{
+  /*font-family: 'Gothic A1';*/
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 19px;
+  color: #373737;
+}
+
+.input{
+  border-radius: 80px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
